@@ -22,14 +22,10 @@ body {
 .single_slide {
     position: relative;
     display: none;
-    opacity: 0;
-    transition: opacity .3s ease;
 }
 
 .single_slide.active {
     display: block;
-    opacity: 1;
-    transition: opacity .3s ease;
 }
 
 .img_box img {
